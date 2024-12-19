@@ -1,0 +1,41 @@
+---
+title: "Splitting a string"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Splitting a string}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+### Setup
+
+```{r setup}
+library(regexcite)
+```
+
+
+### Example 1
+
+Here is the first example, based on a comma delimited string:
+
+```{r run}
+x <- "alfa,bravo,charlie,delta"
+str_split_one(x, pattern = ",")
+str_split_one(x, pattern = ",", n = 2)
+```
+
+### Example 2
+
+Here is the second example, with a period delimited string:
+
+```{r}
+y <- "192.168.0.1"
+str_split_one(y, pattern = stringr::fixed("."))
+```

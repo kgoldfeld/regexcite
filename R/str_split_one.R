@@ -1,10 +1,15 @@
 #' Split a string
 #'
-#' @param string A character vector, with at most, one element.
+#' `str_split_one()` removes duplicated values, with optional control over how
+#' duplication is measured.
+#'
+#' @param string A character vector with at most one element.
 #' @inheritParams stringr::str_split
-
 #'
 #' @return A character vector.
+#' @seealso
+#' * [data.table] makes a table.
+#' * [simstudy] generates data.
 #' @export
 #'
 #' @examples

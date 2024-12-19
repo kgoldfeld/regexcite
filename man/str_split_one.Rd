@@ -7,7 +7,7 @@
 str_split_one(string, pattern, n = Inf)
 }
 \arguments{
-\item{string}{A character vector, with at most, one element.}
+\item{string}{A character vector with at most one element.}
 
 \item{pattern}{Pattern to look for.
 
@@ -36,7 +36,8 @@ with \code{""}.}
 A character vector.
 }
 \description{
-Split a string
+\code{str_split_one()} removes duplicated values, with optional control over how
+duplication is measured.
 }
 \examples{
 x <- "alfa,bravo,charlie,delta"
@@ -46,4 +47,10 @@ str_split_one(x, pattern = ",", n = 2)
 y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 
+}
+\seealso{
+\itemize{
+\item \link{data.table} makes a table.
+\item \link{simstudy} generates data.
+}
 }

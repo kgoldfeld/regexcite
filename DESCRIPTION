@@ -2,17 +2,25 @@ Package: regexcite
 Title: Make Regular Expressions Really Exciting
 Version: 0.0.0.9000
 Authors@R: 
-    person("Keith", "Goldfeld", , "keith.goldfeld@nyulangone.org", role = c("aut", "cre"))
+    person("Keith", "Goldfeld", email = "keith.goldfeld@nyulangone.org", 
+    role = c("aut", "cre"))
 Description: Convenience functions to make some common tasks with string
     manipulation and regular expressions a bit easier.
-License: MIT + file LICENSE
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     stringr
+ImportsFrom: (data.table, data.table
 URL: https://github.com/kgoldfeld/regexcite
 BugReports: https://github.com/kgoldfeld/regexcite/issues
+Depends: 
+    R (>= 3.5)
+LazyData: true
+VignetteBuilder: knitr

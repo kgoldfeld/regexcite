@@ -3,7 +3,7 @@ pkgdown: 2.1.1
 pkgdown_sha: ~
 articles:
   splitting-a-string: splitting-a-string.html
-last_built: 2024-12-19T22:13Z
+last_built: 2024-12-19T22:46Z
 urls:
   reference: https://kgoldfeld.github.io/regexcite/reference
   article: https://kgoldfeld.github.io/regexcite/articles

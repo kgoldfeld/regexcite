@@ -48,9 +48,3 @@ y <- "192.168.0.1"
 str_split_one(y, pattern = stringr::fixed("."))
 
 }
-\seealso{
-\itemize{
-\item \link{data.table} makes a table.
-\item \link{simstudy} generates data.
-}
-}

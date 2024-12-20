@@ -7,9 +7,6 @@
 #' @inheritParams stringr::str_split
 #'
 #' @return A character vector.
-#' @seealso
-#' * [data.table] makes a table.
-#' * [simstudy] generates data.
 #' @export
 #'
 #' @examples
